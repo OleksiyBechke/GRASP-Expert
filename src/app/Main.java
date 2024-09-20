@@ -8,6 +8,6 @@ public class Main {
 
         user.setAddress(address);
 
-        System.out.println(user.getAddress().toString());
+        System.out.println("name: " + user.getName() + ", " + user.getAddress().toString());
     }
 }
